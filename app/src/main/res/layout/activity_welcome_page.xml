@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome_page">
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/google_btn"
+        android:layout_alignBottom="@id/google_btn"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#3b5998"
+        android:outlineAmbientShadowColor="@color/black"
+        android:background="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/wlcomeimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/welcomebc"
+        android:contentDescription="@string/todo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/wlm"
+        android:textColor="@color/black"
+        android:textSize="34dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wlminfo"></TextView>
+
+    <TextView
+        android:id="@+id/socialline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wlcomeimg"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/socialline"></TextView>
+
+
+    <ImageButton
+        android:id="@+id/google_btn"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/socialline"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        android:src="@drawable/google"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/facebook_btn"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/socialline"
+        android:layout_alignBaseline="@id/google_btn"
+        android:layout_alignBottom="@id/google_btn"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#3b5998"
+        android:outlineAmbientShadowColor="@color/black"
+        android:src="@drawable/facebook"
+        ></ImageButton>
+
+    <TextView
+        android:id="@+id/loginifo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/google_btn"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logline"></TextView>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/loginifo"
+        android:layout_marginTop="30dp"
+        android:text="Sign Up"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#528AAE"
+        android:textColor="@color/white"></Button>
+
+
+    <TextView
+        android:id="@+id/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+        android:text="Already have an account?"></TextView>
+    <TextView
+        android:id="@+id/login_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_btn"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/normal"
+        android:textColor="@color/blue"
+        android:text="logon"></TextView>
+
+
+</RelativeLayout>

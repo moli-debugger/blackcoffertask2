@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">blackcoffertask2</string>
+    <string name="wlm">welcome</string>
+    <string name="wlminfo">Please login or signup to continue using Helloji</string>
+    <string name="socialline">Enter via social networks</string>
+    <string name="logline">or login with email</string>
+    <string name="loginfo">Please login to continue using Helloji</string>
+    <string name="login_now">Login Now</string>
+    <string name="signupline">or sign up with email</string>
+    <string name="otp_info">Please enter the verification code we sent you.\n It might take a few minute to receive your code</string>
+    <string name="signupinfo">Please signup to continue using Helloji</string>
+    <string name="email">Email</string>
+    <string name="send_again">
+        <u>send</u><u> again</u>
+    </string>
+    <string name="navi_open_drawer">Open navigation drawer</string>
+    <string name="navi_close_drawer">Close navigation drawer</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">259277425360973</string>
+    <string name="fb_login_protocol_scheme">fb259277425360973</string>
+
+</resources>
